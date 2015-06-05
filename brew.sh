@@ -46,7 +46,8 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+brew install python
+brew install npm
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -58,7 +59,6 @@ brew install woff2
 brew install aircrack-ng
 brew install bfg
 brew install binutils
-brew install binwalk
 brew install cifer
 brew install dex2jar
 brew install dns2tcp
