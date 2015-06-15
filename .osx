@@ -518,8 +518,8 @@ defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortOrder" -stri
 # Disable inline attachments (just show the icons)
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
-# Disable automatic spell checking
-defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
+# Set automatic spell checking on send
+defaults write com.apple.mail SpellCheckingBehavior -string "SpellCheckingOnSendEnabled"
 
 ###############################################################################
 # Spotlight                                                                   #
