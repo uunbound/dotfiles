@@ -710,6 +710,9 @@ defaults write com.apple.dashboard devmode -bool true
 # Enable the debug menu in iCal (pre-10.8)
 defaults write com.apple.iCal IncludeDebugMenu -bool true
 
+# Set first day of week to Monday
+defaults write com.apple.iCal "first day of week" -int 1
+
 # Use plain text mode for new TextEdit documents
 defaults write com.apple.TextEdit RichText -int 0
 # Open and save files as UTF-8 in TextEdit
